@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokomio</title>
+    <link rel="shortcut icon" href="assets/pokebola.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="container-cabecalho">
+      <img
+        src="assets/pokebola.png"
+        alt="Pokebola"
+        class="icone-cabecalho icone-pokebola"
+        id="botaoPokebola"
+      />
+      <h1 class="pokomio">POKOMIO</h1>
+
+      <div id="containerBarraBusca" class="container-barra-busca hidden">
+        <input
+          type="text"
+          id="inputBuscaPokemon"
+          placeholder="Buscar por Nome ou ID..."
+        />
+      </div>
+
+      <img
+        src="assets/lupa.png"
+        alt="Lupa"
+        class="icone-cabecalho icone-lupa"
+      />
+    </div>
+
+    <button id="botaoVoltarAoTopo" class="botao-voltar-ao-topo hidden">
+      <img src="assets/setacima.png" alt="Voltar ao Topo" />
+    </button>
+
+    <div class="container-pokemons" id="containerPokemons"></div>
+
+    <div id="modalPokemon" class="modal hidden">
+      <div class="conteudo-modal">
+        <span id="botaoFecharModal" class="botao-fechar">&times;</span>
+        <div id="infoModal"></div>
+      </div>
+    </div>
+
+    <div id="overlayCarregamento" class="overlay-carregamento">
+      <div class="spinner-carregamento"></div>
+      <p class="mensagem-carregamento">Carregando...</p>
+    </div>
+
+    <div id="menuCompleto" class="menu-tela-cheia hidden">
+      <div class="conteudo-menu">
+        <img src="assets/pokebola.png" alt="Menu" class="icone-menu" />
+
+        <div class="botoes-menu" id="containerBotoesMenu">
+          <button class="botao-menu">Todos</button>
+          <button class="botao-menu">Favoritos</button>
+          <button class="botao-menu">Gerações</button>
+          <button class="botao-menu">Elementos</button>
+          <button class="botao-menu">Ordenar por...</button>
+          <button class="botao-menu">Estágio Evolutivo</button>
+          <button class="botao-menu">Resetar Filtros</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
