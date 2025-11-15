@@ -14,6 +14,12 @@ https://akdomingues.github.io/POK-DEX-POKOMIO-V4/
 
 ---
 
+## 🚀 Future updates
+
+Correcting the dupe of Pokemon cards.
+
+---
+
 ## 🚀 Key Features
 
 ### 🧭 Navigation & Interface
