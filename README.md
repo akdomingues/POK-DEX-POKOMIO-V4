@@ -9,7 +9,7 @@ The system features **instant search**, **advanced filtering**, **detailed modal
 ---
 
 ## 🌐 Live Demo
-https://jprospirski.github.io/manicomio-pokomio/
+
 
 ---
 
